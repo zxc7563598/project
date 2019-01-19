@@ -1,0 +1,40 @@
+*{margin:0;padding:0;font-size:14px;font-family: 'Source Sans Pro', sans-serif;}
+
+@media screen and (max-width: 1200px) {
+    /* 设置了浏览器宽度不大于1200px时执行该方法 */
+    .Navigation{width:100%;height:324px;position:relative;overflow:hidden;}
+    .Navigation .Nav_back{height:324px;position:absolute;top:0;left:0;}
+    .Navigation .Nav_body{width:100%;position:relative;padding-top:20px;}
+    .Navigation .Nav_body .nav_user_info{text-align: center;padding-top:2rem;}
+    .Navigation .Nav_body .nav_user_info .nav_user_portrait{width:100px;border-radius: 50%;border: 4px solid rgba(255, 255, 255, 0.39);}
+    .Navigation .Nav_body .nav_user_info .nav_user_introduce{color: rgba(255, 255, 255, 0.5);font-size: 1.2em;line-height: 1.75em;margin-top: 1em;font-weight: 400;}
+    .Navigation .Nav_body .nav_list_button{display: block;font-size: 15px;text-decoration: none;border: none;text-align:center;background-color: #ffffff;color: #333;cursor: pointer;margin:0 auto;width:80px;height:36px;margin-top:0.5rem;line-height:36px;}
+    .Navigation .Nav_body .nav_list_body{padding: 0 2.5em;text-align:right;display:none;}
+    .Navigation .Nav_body .nav_list_body .nav_list{list-style: none;}
+    .Navigation .Nav_body .nav_list_body .nav_list .nav_list_info{margin-top:1rem;}
+    .Navigation .Nav_body .nav_list_body .nav_list .nav_list_info a{text-decoration:none;color: #fff;font-weight: 600;letter-spacing: 1px;text-transform: uppercase;font-size: 15px;transition: 0.5s all;-webkit-transition: 0.5s all;-moz-transition: 0.5s all;-o-transition: 0.5s all;-ms-transition: 0.5s all;}
+    .Navigation .Nav_body .nav_list_body .nav_list .nav_list_info a:hover{color: #00a8e0;}
+
+    .Content{width:100%;position:relative;}
+}
+
+
+@media screen and (min-width: 1200px) {
+    /* 设置了浏览器宽度不小于1200px时执行该方法 */
+    .Navigation{width:25%;position:fixed;left:0;top:0;height:100%;overflow:hidden;min-width:320px;}
+    .Navigation .Nav_back{height:100%;min-width:100%;position:absolute;top:0;left:0;}
+    .Navigation .Nav_body{width:100%;height:100%;position:relative;}
+    .Navigation .Nav_body .nav_user_info{padding: 6em 2.5em 0;text-align:right;}
+    .Navigation .Nav_body .nav_user_info .nav_user_portrait{width:100px;border-radius: 50%;border: 4px solid rgba(255, 255, 255, 0.39);}
+    .Navigation .Nav_body .nav_user_info .nav_user_introduce{color: rgba(255, 255, 255, 0.5);font-size: 1.35em;line-height: 1.75em;margin-top: 1em;font-weight: 400;}
+    .Navigation .Nav_body .nav_list_button{display: none;}
+    .Navigation .Nav_body .nav_list_body{padding: 0 2.5em;text-align:right;}
+    .Navigation .Nav_body .nav_list_body .nav_list{list-style: none;}
+    .Navigation .Nav_body .nav_list_body .nav_list .nav_list_info{margin-top:1rem;}
+    .Navigation .Nav_body .nav_list_body .nav_list .nav_list_info a{text-decoration:none;color: #fff;font-weight: 600;letter-spacing: 1px;text-transform: uppercase;font-size: 15px;transition: 0.5s all;-webkit-transition: 0.5s all;-moz-transition: 0.5s all;-o-transition: 0.5s all;-ms-transition: 0.5s all;}
+    .Navigation .Nav_body .nav_list_body .nav_list .nav_list_info a:hover{color: #00a8e0;}
+
+    .Content{width:75%;margin-left:25%;position:relative;}
+}
+
+
