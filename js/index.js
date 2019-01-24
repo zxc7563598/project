@@ -16,11 +16,13 @@ window.onload=function(){
             $('.project_info').css('margin-bottom',$('.project_info').css('margin-left'));
             $('.information_info').css('margin-bottom',$('.information_info').css('margin-left'));
         }
+        $('.information_content').css('width',($('.information_info').width()-74));
     }else{
         $('.Nav_back').css('height','100%');
         $('.Nav_back').css('width','auto');
         $('.project_info').css('margin-bottom',$('.project_info').css('margin-left'));
         $('.information_info').css('margin-bottom',$('.information_info').css('margin-left'));
+        $('.information_content').css('width',($('.information_info').width()-114));
     }
 }
 
@@ -38,11 +40,13 @@ window.onresize=function(){
             $('.project_info').css('margin-bottom',$('.project_info').css('margin-left'));
             $('.information_info').css('margin-bottom',$('.information_info').css('margin-left'));
         }
+        $('.information_content').css('width',($('.information_info').width()-74));
     }else{
         $('.Nav_back').css('height','100%');
         $('.Nav_back').css('width','auto');
         $('.project_info').css('margin-bottom',$('.project_info').css('margin-left'));
         $('.information_info').css('margin-bottom',$('.information_info').css('margin-left'));
+        $('.information_content').css('width',($('.information_info').width()-114));
     }
 }
 
